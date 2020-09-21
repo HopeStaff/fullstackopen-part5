@@ -1,0 +1,11 @@
+post http://localhost:3003/api/blogs/
+Content-Type: application/json
+//Authorization: bearer X
+
+{
+        "title": "New blog!!!",
+        "author": "Some random dude",
+        "url": "no url provided",
+        "likes": 0,
+        "userId": "5f53af62a8d41d49ccab4cfb"
+}
